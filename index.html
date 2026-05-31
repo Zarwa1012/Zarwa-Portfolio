@@ -10,10 +10,9 @@
 </head>
 <body>
 
-    <div class="gradient-bg-1"></div>
-    <div class="gradient-bg-2"></div>
+    <canvas id="spaceCanvas"></canvas>
 
-    <header>
+    <header data-aos="fade-down" data-aos-duration="1000">
         <div class="logo">Zarwa<span>AI</span></div>
         <nav>
             <ul>
@@ -28,34 +27,32 @@
     </header>
 
     <section id="home" class="hero">
-        <div class="hero-content" data-aos="fade-right" data-aos-duration="1200">
-            <h3><span class="welcome-tag">Welcome to the Future</span></h3>
+        <div class="hero-content" data-aos="zoom-out-right" data-aos-duration="1500">
+            <div class="status-indicator" data-aos="fade-in" data-aos-delay="600"><span class="pulse-dot"></span> Node: Lahore, PK</div>
             <h1>Hi, I'm <span class="glowing-text">Zarwa Aslam</span></h1>
-            <h2>BS Artificial Intelligence Student</h2>
+            <div class="cyber-subtitle" data-aos="fade-up" data-aos-delay="400">BS Artificial Intelligence Student</div>
             <p>Navigating the realms of C++, Python, and Machine Learning at University of the Punjab. Crafting smart solutions with data and code.</p>
             
-            <div class="social-icons">
-                <a href="https://github.com/" target="_blank" title="GitHub Profile"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/zarwa-aslam-088988389/" target="_blank" title="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:zarwaaslam10102@gmail.com" title="Email Me"><i class="fas fa-envelope"></i></a>
+            <div class="social-matrix" data-aos="fip-up" data-aos-delay="800">
+                <a href="https://github.com/" target="_blank" class="glow-node" title="GitHub Profile"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/zarwa-aslam-088988389/" target="_blank" class="glow-node" title="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:zarwaaslam10102@gmail.com" class="glow-node" title="Email Me"><i class="fas fa-envelope"></i></a>
             </div>
-            <a href="#projects" class="btn-spark">Explore My Work <i class="fas fa-arrow-right"></i></a>
+            <a href="#projects" class="cyber-btn" data-aos="zoom-in" data-aos-delay="1000"><span>EXPLORE MY WORK</span></a>
         </div>
     </section>
 
     <section id="about" class="about">
-        <div class="container" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="heading">About <span>Me</span></h2>
-            <div class="about-content">
-                <p>Based in <strong>Lahore, Punjab, Pakistan</strong> (originally from Chawinda, Sialkot), I am currently exploring advanced computing in my 2nd semester of BS AI at the University of the Punjab. I blend logic with creativity—transitioning from high-performance foundational languages to complex AI/ML neural networks and smart algorithms.</p>
-            </div>
+        <div class="glass-panel" data-aos="zoom-in-up" data-aos-duration="1200">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <p>Based in <strong>Lahore, Punjab, Pakistan</strong> (originally from Chawinda, Sialkot), I am currently exploring advanced computing in my 2nd semester of BS AI at the University of the Punjab. I blend logic with creativity—transitioning from high-performance foundational languages to complex AI/ML neural networks and smart algorithms.</p>
         </div>
     </section>
 
     <section id="education" class="education">
-        <h2 class="heading" data-aos="fade-up">Academic <span>Journey</span></h2>
+        <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000">Academic <span>Journey</span></h2>
         <div class="timeline">
-            <div class="timeline-item" data-aos="fade-left" data-aos-duration="800">
+            <div class="timeline-item" data-aos="fade-right" data-aos-duration="1100">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <span class="timeline-date">2025 - Present</span>
@@ -64,7 +61,7 @@
                     <span class="badge active-badge">Current (2nd Semester)</span>
                 </div>
             </div>
-            <div class="timeline-item" data-aos="fade-right" data-aos-duration="800">
+            <div class="timeline-item" data-aos="fade-left" data-aos-duration="1100">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <span class="timeline-date">ICS</span>
@@ -73,7 +70,7 @@
                     <span class="badge score-badge">Top Tier</span>
                 </div>
             </div>
-            <div class="timeline-item" data-aos="fade-left" data-aos-duration="800">
+            <div class="timeline-item" data-aos="fade-right" data-aos-duration="1100">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <span class="timeline-date">Matric</span>
@@ -86,76 +83,65 @@
     </section>
 
     <section id="skills" class="skills">
-        <h2 class="heading" data-aos="fade-up">Core <span>Arsenal</span></h2>
-        <div class="skills-container">
-            <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
-                <i class="fab fa-python skill-icon python-color"></i>
+        <h2 class="section-title" data-aos="flip-down" data-aos-duration="1000">Core <span>Arsenal</span></h2>
+        <div class="skills-grid">
+            <div class="skill-node" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
+                <i class="fab fa-python skill-icon py-glow"></i>
                 <h3>Python</h3>
-                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
-                <p>Advanced Command</p>
+                <div class="node-bar"><div class="fill" style="width: 90%;"></div></div>
+                <span class="pct">90% Efficiency</span>
             </div>
-            <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
-                <i class="fas fa-terminal skill-icon cpp-color"></i>
+            <div class="skill-node" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                <i class="fas fa-terminal skill-icon cpp-glow"></i>
                 <h3>C / C++</h3>
-                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
-                <p>Strong Logic & OOP</p>
+                <div class="node-bar"><div class="fill" style="width: 85%;"></div></div>
+                <span class="pct">85% Command</span>
             </div>
-            <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
-                <i class="fas fa-brain skill-icon ai-color"></i>
+            <div class="skill-node" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+                <i class="fas fa-brain skill-icon ai-glow"></i>
                 <h3>AI / ML</h3>
-                <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
-                <p>Focusing & Upskilling</p>
+                <div class="node-bar"><div class="fill" style="width: 65%;"></div></div>
+                <span class="pct">Active Training</span>
             </div>
-            <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
-                <i class="fab fa-html5 skill-icon web-color"></i>
+            <div class="skill-node" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
+                <i class="fab fa-html5 skill-icon web-glow"></i>
                 <h3>Web Dev</h3>
-                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
-                <p>HTML, CSS, JS Fundamentals</p>
+                <div class="node-bar"><div class="fill" style="width: 75%;"></div></div>
+                <span class="pct">Vanilla Ecosystem</span>
             </div>
         </div>
     </section>
 
     <section id="projects" class="projects">
-        <h2 class="heading" data-aos="fade-up">Recent <span>Creations</span></h2>
-        <div class="projects-grid">
-            <div class="project-neon-card featured-project" data-aos="flip-left" data-aos-duration="1000">
-                <div class="project-info">
-                    <span class="proj-tag"><i class="fas fa-star"></i> Latest Release</span>
-                    <h4>Word Search Game</h4>
-                    <p>An interactive puzzle game focusing on string manipulation algorithms, dynamic array rendering, and efficient grid scanning logic.</p>
-                </div>
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Recent <span>Creations</span></h2>
+        <div class="projects-display">
+            <div class="cyber-card featured" data-aos="zoom-in-right" data-aos-duration="1200">
+                <div class="corner-tag">LATEST RUN</div>
+                <h4>Word Search Game</h4>
+                <p>An intricate matrix-scanning system engineered using custom grid-traversal arrays and predictive string matching logic structures.</p>
             </div>
-            <div class="project-neon-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
-                <div class="project-info">
-                    <span class="proj-tag">Frontend UI</span>
-                    <h4>Amazon UI Clone</h4>
-                    <p>Fully responsive structure replicating complex CSS grids and multi-level e-commerce navbar logic.</p>
-                </div>
+            <div class="cyber-card" data-aos="zoom-in-left" data-aos-duration="1200" data-aos-delay="100">
+                <h4>Amazon UI Clone</h4>
+                <p>Complex layout node deployment mimicking microservice distribution flows, massive interface grids, and layered styling blocks.</p>
             </div>
-            <div class="project-neon-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
-                <div class="project-info">
-                    <span class="proj-tag">E-Commerce UI</span>
-                    <h4>Sapphire Clone</h4>
-                    <p>Premium retail clothing brand mockup utilizing high-end modern layout alignments and responsive product grids.</p>
-                </div>
+            <div class="cyber-card" data-aos="zoom-in-right" data-aos-duration="1200" data-aos-delay="200">
+                <h4>Sapphire Clone</h4>
+                <p>E-commerce viewport replica emphasizing responsive grid pipelines and image scaling performance scripts.</p>
             </div>
-            <div class="project-neon-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
-                <div class="project-info">
-                    <span class="proj-tag">Fast Food UI</span>
-                    <h4>McDonald's Replica</h4>
-                    <p>Clean, interactive menu interface highlighting dynamic CSS hover states and optimized structural hierarchy.</p>
-                </div>
+            <div class="cyber-card" data-aos="zoom-in-left" data-aos-duration="1200" data-aos-delay="300">
+                <h4>McDonald's Replica</h4>
+                <p>Clean front-end development using premium semantic markers and high-FPS transitions on modern UI layers.</p>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="contact" data-aos="fade-up">
-        <h2 class="heading">Get In <span>Touch</span></h2>
-        <div class="contact-box">
-            <p><i class="fas fa-envelope neon-icon"></i> zarwaaslam10102@gmail.com</p>
-            <p><i class="fas fa-map-marker-alt neon-icon"></i> Lahore, Punjab, Pakistan</p>
-            <div class="contact-actions">
-                <a href="mailto:zarwaaslam10102@gmail.com" class="btn-spark">Send an Email</a>
+    <section id="contact" class="contact">
+        <div class="signal-box" data-aos="radial-in" data-aos-duration="1500">
+            <h3>Get In Touch</h3>
+            <p><i class="fas fa-envelope"></i> zarwaaslam10102@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Lahore, Punjab, Pakistan</p>
+            <div style="margin-top: 25px;">
+                <a href="mailto:zarwaaslam10102@gmail.com" class="cyber-btn small"><span>Send an Email</span></a>
             </div>
         </div>
     </section>
@@ -166,10 +152,100 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({
-            once: false,
-            mirror: true
+        // AOS configuration with enhanced settings for richer animations
+        AOS.init({ 
+            once: false,       // Animations trigger every time you scroll up/down
+            mirror: true,      // Elements animate out while scrolling past them
+            duration: 1000,    // Default transition duration
+            offset: 120        // Trigger animations slightly earlier for smooth flow
         });
+
+        // --- BACKGROUND LIVE INTERACTIVE SPACE & REVOLVING PLANETS SIMULATOR ---
+        const canvas = document.getElementById('spaceCanvas');
+        const ctx = canvas.getContext('2d');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        });
+
+        let mouse = { x: null, y: null };
+        window.addEventListener('mousemove', (e) => { mouse.x = e.clientX; mouse.y = e.clientY; });
+        window.addEventListener('mouseout', () => { mouse.x = null; mouse.y = null; });
+
+        class Star {
+            constructor() {
+                this.x = Math.random() * width;
+                this.y = Math.random() * height;
+                this.size = Math.random() * 1.5;
+                this.speedX = (Math.random() - 0.5) * 0.3;
+                this.speedY = (Math.random() - 0.5) * 0.3;
+            }
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                if (this.x < 0 || this.x > width) this.speedX *= -1;
+                if (this.y < 0 || this.y > height) this.speedY *= -1;
+                if (mouse.x && mouse.y) {
+                    let dx = this.x - mouse.x;
+                    let dy = this.y - mouse.y;
+                    let dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < 100) {
+                        this.x += dx * 0.02;
+                        this.y += dy * 0.02;
+                    }
+                }
+            }
+            draw() {
+                ctx.fillStyle = 'rgba(56, 189, 248, 0.4)';
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        class Planet {
+            constructor(radius, distance, speed, color, glowColor) {
+                this.radius = radius;
+                this.distance = distance;
+                this.speed = speed;
+                this.color = color;
+                this.glowColor = glowColor;
+                this.angle = Math.random() * Math.PI * 2;
+            }
+            update() { this.angle += this.speed; }
+            draw() {
+                let cx = width / 2;
+                let cy = height / 2;
+                let px = cx + Math.cos(this.angle) * this.distance;
+                let py = cy + Math.sin(this.angle) * this.distance;
+                ctx.shadowBlur = 20;
+                ctx.shadowColor = this.glowColor;
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(px, py, this.radius, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+        }
+
+        const stars = [];
+        for(let i=0; i<150; i++) stars.push(new Star());
+        const solarSystem = [
+            new Planet(14, 190, 0.002, '#38bdf8', 'rgba(56, 189, 248, 0.3)'),
+            new Planet(25, 390, 0.0008, '#f43f5e', 'rgba(244, 63, 94, 0.25)')
+        ];
+
+        function animateSpace() {
+            ctx.fillStyle = 'rgba(15, 23, 42, 0.2)';
+            ctx.fillRect(0, 0, width, height);
+            stars.forEach(star => { star.update(); star.draw(); });
+            solarSystem.forEach(planet => { planet.update(); planet.draw(); });
+            requestAnimationFrame(animateSpace);
+        }
+        animateSpace();
     </script>
 </body>
 </html>
